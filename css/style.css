@@ -13,13 +13,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: brightness(0.9);
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
     background-color: darkslategrey;
-    padding: 20px;
+    width: 400px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 h2 {
     color: white;

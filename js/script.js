@@ -13,7 +13,5 @@ else if (eta > 65) {
     prezzo = prezzo - ((prezzo / 100) * 40);
 
 }
-document.getElementById("km").innerHTML= numkm;
-document.getElementById("prezzo").innerHTML= prezzo.toFixed(2);
-
-console.log(prezzo.toFixed(2));
+document.getElementById("km").innerHTML="Devi percorrere " + numkm + " km.";
+document.getElementById("prezzo").innerHTML= "Il tuo biglietto costerà " + prezzo.toFixed(2) + " €";
